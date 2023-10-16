@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 45px;
+    background-color: rgb(101, 93, 103) ;
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+   /** background-image: url("image1.png");**/
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.container{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(212, 255, 241);
+    background-image: url("bgm2.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+   /** background-position: 0 0; **/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: rgb(101, 93, 103);
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+form.display{
+    display: flex;
+    justify-content: flex-end; /** content will be on right side **/
+    margin: 20px 0;
+}
+form.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+    
+}
+.foot{
+    background-color:rgb(101, 93, 103) ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
