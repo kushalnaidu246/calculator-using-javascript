@@ -5,4 +5,4 @@ A simple web-based calculator application created using HTML, CSS, and JavaScrip
 Basic arithmetic operations (addition, subtraction, multiplication, division).
 
 # Demo
-https://652c9b30e6cb0264da91440f--fantastic-tiramisu-2d0116.netlify.app/
+https://652cef56412cb3139c49ef8d--cozy-faloodeh-9bf32b.netlify.app/
